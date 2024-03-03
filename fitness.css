@@ -1,0 +1,125 @@
+body{
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://wallpapercave.com/wp/wp2639536.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.left{
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 10px;
+    margin-left: 5px;
+}
+.right{
+    position: absolute;
+    right: 34px;
+    /* border: 2px solid yellow; */
+    top: 20px;
+}
+.mid{
+   width: 55%;
+    display: block;
+    /* border: 2px solid blue; */
+    margin: 26px auto;
+    margin-left: 200px;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 23px;
+    font-weight: bold;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: yellow;
+}
+.left img{
+    width: 80px;
+    /* filter: invert(100%); */
+    height: 70px;
+    border-radius: 50%;
+}
+.btn{
+    padding:4px 14px;
+    /* margin: 0 9px 5px 5px; */
+    border: 2px solid grey;
+    background-color: black;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.btn:hover{
+    background-color:grey;
+}
+.container{
+    border: 2px solid white;
+    margin: 106px 80px;
+    padding: 80px;
+    width: 400px;
+    border-radius: 28px;
+    background-color:transparent;
+    backdrop-filter: blur(20px);
+}
+.form-group input{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    display: block;
+    width: 440px;
+    padding: 1px;
+    border: 2px solid black;
+     /* margin: 5px; */
+    /* margin-right: 15px; */
+    font-size: 25px;
+    border-radius: 8px;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 443px;
+}
+@media(max-width:1378px){
+    h1{
+        font-size: 20px;
+        color: aqua;
+        width: 320px;
+        right: 20px;
+        
+    }
+    .form-group input{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        display: block;
+        width: 300px;
+        padding: 5px;
+        border: 2px solid black;
+        font-size: 18px;
+        border-radius: 8px;
+    }
+    .container button{
+        display: block;
+        width: 312px;
+    }
+    .container{
+        border: 2px solid white;
+        margin: 106px 50px;
+        /* padding: 75px; */
+        width: 330px;
+        border-radius: 28px;
+        background-color:transparent;
+        backdrop-filter: blur(20px);
+    }
+}
